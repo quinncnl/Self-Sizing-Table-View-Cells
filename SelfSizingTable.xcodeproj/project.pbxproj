@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B004B7E1D6FEB9A00E74606 /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B004B7D1D6FEB9A00E74606 /* TestTableViewCell.m */; };
+		8B004B811D6FEFC000E74606 /* Test2TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B004B801D6FEFC000E74606 /* Test2TableViewCell.m */; };
 		8B7BC5801D6EC69000B2DF3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7BC57F1D6EC69000B2DF3A /* main.m */; };
 		8B7BC5831D6EC69000B2DF3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7BC5821D6EC69000B2DF3A /* AppDelegate.m */; };
 		8B7BC5861D6EC69000B2DF3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7BC5851D6EC69000B2DF3A /* ViewController.m */; };
@@ -16,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B004B7C1D6FEB9A00E74606 /* TestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
+		8B004B7D1D6FEB9A00E74606 /* TestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
+		8B004B7F1D6FEFC000E74606 /* Test2TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test2TableViewCell.h; sourceTree = "<group>"; };
+		8B004B801D6FEFC000E74606 /* Test2TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test2TableViewCell.m; sourceTree = "<group>"; };
 		8B7BC57B1D6EC69000B2DF3A /* SelfSizingTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfSizingTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B7BC57F1D6EC69000B2DF3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B7BC5811D6EC69000B2DF3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,6 +69,10 @@
 				8B7BC5841D6EC69000B2DF3A /* ViewController.h */,
 				8B7BC5851D6EC69000B2DF3A /* ViewController.m */,
 				8B7BC5871D6EC69000B2DF3A /* Main.storyboard */,
+				8B004B7C1D6FEB9A00E74606 /* TestTableViewCell.h */,
+				8B004B7D1D6FEB9A00E74606 /* TestTableViewCell.m */,
+				8B004B7F1D6FEFC000E74606 /* Test2TableViewCell.h */,
+				8B004B801D6FEFC000E74606 /* Test2TableViewCell.m */,
 				8B7BC58A1D6EC69000B2DF3A /* Assets.xcassets */,
 				8B7BC58C1D6EC69000B2DF3A /* LaunchScreen.storyboard */,
 				8B7BC58F1D6EC69000B2DF3A /* Info.plist */,
@@ -150,7 +160,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B7BC5861D6EC69000B2DF3A /* ViewController.m in Sources */,
+				8B004B7E1D6FEB9A00E74606 /* TestTableViewCell.m in Sources */,
 				8B7BC5831D6EC69000B2DF3A /* AppDelegate.m in Sources */,
+				8B004B811D6FEFC000E74606 /* Test2TableViewCell.m in Sources */,
 				8B7BC5801D6EC69000B2DF3A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +312,7 @@
 				8B7BC5941D6EC69000B2DF3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
